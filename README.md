@@ -36,7 +36,7 @@ Transitions are time-gated (configurable thresholds per state) to avoid reacting
 ## Project structure
 
 ```
-07_classroom_attention/
+classroom-attention-cv/
 ├── script.py              # Main script: detector initialization, threads, FSM logic
 ├── imports.py             # Shared imports and utility functions (landmark preprocessing)
 ├── landmarks.png          # Reference diagram of MediaPipe face landmark indices
