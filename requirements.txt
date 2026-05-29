@@ -1,0 +1,5 @@
+opencv-python>=4.8
+mediapipe>=0.10
+numpy>=1.24
+tflite-runtime>=2.13; platform_machine != "x86_64" and platform_machine != "AMD64"
+tensorflow>=2.13; platform_machine == "x86_64" or platform_machine == "AMD64"
